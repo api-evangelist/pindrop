@@ -1,7 +1,28 @@
 aid: pindrop
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/pindrop.png
 name: Pindrop
-description: Pindrop is a company surfaced as a portfolio company of felicis, gv, ivp and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Pindrop is a voice and audio security company providing a continuous identity
+  verification and deepfake-detection platform for enterprises. Its technology
+  authenticates callers and video-meeting participants, detects synthetic
+  (AI-generated) speech and fraudulent activity, and protects contact centers,
+  virtual meetings, and connected devices. Pindrop's products span call-center
+  fraud detection, passive voice authentication, and liveness/deepfake defense,
+  and are delivered largely through partner platforms (Amazon Connect, Zoom,
+  Webex, and others) rather than a public self-service developer API. The
+  company is backed by Felicis, GV, and IVP and is tracked in the API
+  Evangelist network as a company profile.
 url: https://raw.githubusercontent.com/api-evangelist/pindrop/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -13,9 +34,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Voice Security
+- Identity Verification
+- Fraud Detection
+- Deepfake Detection
+- Authentication
+- Contact Center
+- Voice Biometrics
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +53,22 @@ maintainers:
 common:
 - type: Website
   url: https://pindrop.com
+- type: Blog
+  url: https://www.pindrop.com/article/
+- type: Support
+  url: https://www.pindrop.com/company/customer-support/
+- type: PrivacyPolicy
+  url: https://www.pindrop.com/privacy/
+- type: TermsOfService
+  url: https://www.pindrop.com/pindrop-security-website-terms-of-use/
+- type: TrustCenter
+  url: security/pindrop-trust-center.yml
+- type: Compliance
+  url: https://trust.pindrop.com/
+- type: DomainSecurity
+  url: security/pindrop-domain-security.yml
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 2
+  pass: local-v1
